@@ -38,7 +38,9 @@ public class Main {
         var weightBox2 = 82.7;
         System.out.println(weightBox1 + weightBox2);
         System.out.println(weightBox1 - weightBox2);
-        System.out.println("Метод modulo: " + weightBox2 % weightBox1);
+
+        System.out.println(weightBox2 - weightBox1);
+        System.out.println(weightBox2 % weightBox1);
 
         var timeTotal = 640;
         var timeDuty = 8;
